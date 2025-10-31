@@ -8,5 +8,8 @@ function fibonacci(numero) {
     if (numero === 1) {
         return 1;
     }
-    return fibonacci(numero - 1) + fibonacci(numero - 2);
+    
+    result = fibonacci(numero - 1) + fibonacci(numero - 2);
+    
+    return result;
 }
