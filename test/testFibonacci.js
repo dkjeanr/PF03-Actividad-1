@@ -1,5 +1,6 @@
 import { fibonacci } from '../src/fibonacci.js';
 
+//Comienzo de los test
 describe('fibonacci', () => {
   it('debería lanzar RangeError si n < 0', () => {
     expect(() => fibonacci(-1)).to.throw(RangeError, 'solo números enteros ≥ 0');
