@@ -5,8 +5,8 @@
   "main": "calc.js",
   "type": "module",
   "scripts": {
-    "test": "vietest run",
-    "test: watch": "vietest"
+    "test": "vitest run",
+    "test: watch": "vitest"
   },
   "keywords": [],
   "author": "",

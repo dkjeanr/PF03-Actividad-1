@@ -1,3 +1,4 @@
+import { expect, it, describe } from 'vitest';
 import { fibonacci } from '../src/fibonacci.js';
 
 //Comienzo de los test
