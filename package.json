@@ -5,8 +5,8 @@
   "main": "calc.js",
   "type": "module",
   "scripts": {
-    "test": "vietest run",
-    "test: watch": "vietest"
+    "test": "fibonacci run",
+    "test: watch": "fibonacci"
   },
   "keywords": [],
   "author": "",
