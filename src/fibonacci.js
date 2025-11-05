@@ -26,3 +26,7 @@ function fibonacci(n) {
 
     return resultado;
 }
+
+export{
+    fibonacci
+}
