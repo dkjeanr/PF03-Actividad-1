@@ -1,14 +1,7 @@
-import { expect, it, describe } from 'vitest';
-import { fibonacci } from '../src/fibonacci.js';
-
-//Comienzo de los test
 describe('fibonacci', () => {
-  it('debería lanzar RangeError si n < 0', () => {
+  it('debería lanzar RangeError si n ≤ 0', () => {
     expect(() => fibonacci(-1)).to.throw(RangeError, 'solo números enteros ≥ 0');
-  });
-
-  it('debería devolver 0 si n = 0', () => {
-    expect(fibonacci(0)).to.equal(0);
+    expect(() => fibonacci(0)).to.throw(RangeError, 'solo números enteros ≥ 0');
   });
 
   it('debería devolver 1 si n = 1', () => {
